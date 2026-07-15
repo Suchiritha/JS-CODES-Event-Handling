@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>JavaScript Events</title>
+
+    <style>
+
+        body{
+            font-family:Arial;
+            margin:30px;
+        }
+
+        #box{
+            width:250px;
+            height:150px;
+            background:lightblue;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            margin-top:20px;
+            border:2px solid black;
+        }
+
+        #parent{
+            margin-top:20px;
+            padding:20px;
+            background:#ddd;
+        }
+
+        #child{
+            margin-top:10px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<h1>JavaScript Event Handling</h1>
+
+<hr>
+
+<h3>Buttons</h3>
+
+<button id="btn1">Button 1</button>
+
+<button id="btn2">Button 2</button>
+
+<button id="btn3">Button 3</button>
+
+<button id="btn4">Button 4</button>
+
+<button onclick="htmlHandler()">HTML Event</button>
+
+<hr>
+
+<h3>Input</h3>
+
+<input
+id="input"
+type="text"
+placeholder="Type Something">
+
+<hr>
+
+<h3>Form</h3>
+
+<form id="form">
+
+<input
+type="text"
+id="username"
+placeholder="Enter Name">
+
+<button type="submit">
+Submit
+</button>
+
+<button type="reset">
+Reset
+</button>
+
+</form>
+
+<hr>
+
+<h3>Box</h3>
+
+<div id="box">
+
+Hover Here
+
+</div>
+
+<hr>
+
+<h3>Google Link</h3>
+
+<a
+id="google"
+href="https://google.com">
+
+Google
+
+</a>
+
+<hr>
+
+<h3>Parent & Child</h3>
+
+<div id="parent">
+
+Parent
+
+<br><br>
+
+<button id="child">
+
+Child
+
+</button>
+
+</div>
+
+<hr>
+
+<h3>Fruits</h3>
+
+<ul id="list">
+
+<li>Apple</li>
+
+<li>Mango</li>
+
+<li>Orange</li>
+
+<li>Banana</li>
+
+</ul>
+
+<!-- Change JS file here -->
+
+
+<script src="Mouse_Events.js"></script>
+</body>
+
+</html>
